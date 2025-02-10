@@ -6,16 +6,12 @@ operator = input("Enter operator: ")
 second_num = int(input("Enter second number: "))
 
 if operator == "+":
-    result = first_num + second_num
-    print(result)
+    print(first_num + second_num)
 elif operator == "-":
-    result = first_num - second_num
-    print(result)
+    print(first_num - second_num)
 elif operator == "*":
-    result = first_num * second_num
-    print(result)
+    print(first_num * second_num)
 elif operator == "/":
-    result = first_num / second_num
-    print(result)
+    print(first_num / second_num)
 else:
     print("entered an invalid operator")
